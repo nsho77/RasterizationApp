@@ -139,7 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PerspectiveCorrectInterpolation.cpp" />
+    <ClCompile Include="Raster3D.cpp" />
     <ClCompile Include="Rasterization.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cow.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="PerspectiveCorrectInterpolation.h" />
+    <ClInclude Include="Raster3D.h" />
+    <ClInclude Include="Types.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
